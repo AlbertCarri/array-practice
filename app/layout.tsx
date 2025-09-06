@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Retos de programación",
     description: "Practicando arrays y objetos en javascript",
-    images: ["https://calculadora-gastronomia.vercel.app/calculadora.webp"],
+    images: ["https://codechallenge.vercel.app/retosdecodigo.webp"],
     type: "website",
   },
   icons: {
