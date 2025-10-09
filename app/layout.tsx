@@ -4,11 +4,11 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Code Thinking",
+  title: "Code Challenge",
   description: "Retos de programación",
   openGraph: {
     title: "Retos de programación",
-    description: "Practicando arrays y objetos en javascript",
+    description: "Practicando métodos con arrays y objetos en javascript",
     images: ["https://codechallenge.edelbyte.com.ar/retosdecodigo.webp"],
     type: "website",
   },
@@ -34,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`dark ${miFuente.variable}`}>
+    <html lang="es" className={`dark ${miFuente.variable}`}>
       <body className={"font-sans"}>
         {children}
         <Analytics />
